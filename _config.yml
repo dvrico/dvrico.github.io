@@ -1,3 +1,24 @@
 name: Blog
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+
+# Site settings
+title: david rico
+description: >
+  A web blog about programming, tech, literature, and everything inbetween.
+#baseurl: "/" # the subpath of your site, e.g. /blog/
+url: "http://dvrico.github.io" # the base hostname & protocol for your site
+permalink: "/blog/:title/"
+author:
+  fullname: David Rico
+  #googleplus: ""
+  github: dvrico
+  twitter: dvrico_o
+  disqus: dvrico
+
+google_analytics: 'UA-74488270-1'
+
+# Build settings
+markdown: kramdown
+
+exclude: [node_modules, gulpfile.js]

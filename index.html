@@ -1,4 +1,22 @@
 ---
+layout: page
+title: blog
+---
+
+<ul class="list-posts">
+    {% for post in site.posts %}
+        <li class="post-teaser">
+            <a href="{{ post.url | prepend: site.baseurl }}">
+                <span class="post-teaser__title">{{ post.title }}</span>
+                <span class="post-teaser__date">{{ post.date | date: "%d %B %Y" }}</span>
+            </a>
+        </li>
+    {% endfor %}
+</ul>
+
+
+<!-- Old stuff, for comparsion and tracking
+---
 layout: default
 title: Blog
 ---
@@ -6,4 +24,5 @@ title: Blog
     <h1>Lorem ipsum dolor sit amet.</h1>
 	<p>Donec et egestas nisi, in hendrerit lectus <em>Cras volutpat</em> vitae urna sit amet lacinia. <a href="/about"> Sed sed odio vitae diam lobortis.</a></p>
 </div>
- 
+-->
+

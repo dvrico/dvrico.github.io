@@ -1,17 +1,30 @@
 <!DOCTYPE html>
 <html>
 	<head>
+        {% include meta_tags/base.html %}
+        {% include meta_tags/sharing.html %}
+        {% include externals/styling.html %}
+        <!-- Old stuff for comparsion and tracking
         <title>{{ page.title }}</title>
         <link rel="stylesheet" type="text/css" href="/css/main.css">
+        -->
 	</head>
 	<body>
-		<nav>
+        <div class="wrapper">
+            {% include header.html %}
+
+            {{ content }}
+        </div>
+        {% include externals/scripting.html %}
+        {% include externals/google_analytics.html %}
+        <!-- Old stuff for comparsion and tracking
+        <nav>
     		<ul>
         		<li><a href="/">Home</a></li>
 	        	<li><a href="/about">About</a></li>
         		<li><a href="/blog">Blog</a></li>
     		</ul>
-		</nav>
+        </nav>
 		<div class="container">
 
             {{ content }}
@@ -23,5 +36,6 @@
         		<li><a href="https://github.com/dvrico">github.com/dvrico</a></li>
             </ul>
 		</footer>
+        -->
 	</body>
 </html>

@@ -1,3 +1,10 @@
+---
+layout: post
+title: Vim Primer - Quick Start for new users
+description: Interested in vim, but don't know where to start? Look no further!'
+comments: true
+categories: programming
+---
 
 #Quickly Set Up Vim And Start Coding!
 #Vim-primer: quick-start for new users.

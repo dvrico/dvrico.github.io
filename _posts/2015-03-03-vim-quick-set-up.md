@@ -1,56 +1,69 @@
 ---
 layout: post
-title: Vim Primer - Quick Start for new users
+title: Vim+Tmux - Thoughts and Advice for New Users
 description: Interested in vim, but don't know where to start? Look no further!'
 comments: true
 categories: programming
 ---
 
-#Quickly Set Up Vim And Start Coding!
-#Vim-primer: quick-start for new users.
-Who this is for: Those who have programmed before, flirted with vim beforen, but got hurt,
-interested in vim+tmux.
+I decided to try the Vim+Tmux combo out for a month. It has definitely been a very
+rocky journey, full of bumps and bruises, but I feel confident going into week three now.
+I wanted to share some (newbie) insight and give some advice for those who are interested in
+trying Vim/Tmux out, so that others can avoid some of the very unecessary pains in the beginning
+of the journey.
 
-I have recently ventured into Vim terriorty. It was not the easiest ride. In fact it
-was full of bumps and sharp turns. I hit my head a few times along the way. But, after
-all was said and done, I came out with (sort of) successful results. I wanted to share
-the story of my eventful journey with the hopes that the next budding and naive
-programmer interested in vim can have more (and faster!) success with starting vim.
+Stick to the basics!
+====================
+Vim has a high learning curve. Joined together with tmux and that's a black eye waiting to
+happen if your not careful. But do you know what guarantees two black eyes? 
+Lots and lots of plugins. 
 
-Key points:
-*Stick to the basics:
-    There are a lot of cool and awesome vim plugins out there, but a newbie can quickly
-    drown in all the awesomeness. I found myself installing WAY too many plugins because
-    I found too many veteran vim users out there recommending all this good stuff. The
-    problem, however, came from the fact that I could only justify the plugin being useful
-    by pointing to someone elses comment: "because I haven't uses vim extensively, I didn't
-    know the downsides to vim, which meant I couldn't understand why x plugin helped me
-    out so much." Moral of the story: stick to the basics. Learn and discover the down-
-    sides yourself. Use no more than the necessary plugins to get your work done (syntax
-    highlighter, colors).
-    **Javascript/python syntax, color/themes
-*Learn movement commands:
-    I found myself becoming frustrated trying to work when the editor itself was in the
-    foreground, constantly reminding me that I did not all the shortcuts. Compounded with
-    all the plugin shortcuts that I was trying to remember, I was getting frustrated very
-    quickly. I found myself cheating; using my arrow keys, the mouse, and, at one point, a
-    different editor! I took a step back, downloading a nifty cheat sheet and forced myself only
-    move the cursor via move commands. Sure it took longer at first, and I looked pretty dumb
-    while I shouted commands out loud to help me remember quicker (it works, try it!), but
-    it helped in the long run. I can now resonably get around the terminal, and each day
-    I find myself getting faster and the vim fading into the background seamlessly, becoming
-    a part of the environment. Moral: learn movement commands first! Built-in tutorial is
-    good! Force yourself to use movement commands and it will pay off!
-    **Link vim cheat sheet and vim movement poster.
-*Tmux key commands:
-    A lot of tmux users like to change the leader key (The key that tells the computer that the
-    next keystroke(s) is for tmux; this is ctrl-b by default) to ctrl-a and vims leader key to
-    ','. I found this really useful. When I want to do things with tmux, my left hand goes into
-    what I like to call 'tmux position' and vim is called via the right hand. It helps to have 
-    these leader keys invoked by different hands.
-    **Link to tmux power user blog.
-*Try it for a month:
-    So far, I am half way through my 'trial' with vim. I have wanted to move back to my previous
-    editor many times (atom just handles html/css so much better!). But sticking with it, I hope
-    to learn new and better ways to handle these problems in vim, and congratulate myself for
-    sticking with something I said I would for a month. Let us hope all goes well.
+I downloaded and installed a bunch of plugins for vim and tmux when I first started because
+the internet said I absolutely needed them. Soon after I found myself drowning in a sea
+of (awesome) command shortcuts. It was just too much. I was trying to learn the basic
+vim commands, tmux commands, and the plugin commands all at once. I soon became very frustrated.
+
+I found out that becase I hadn't used vim extensively, I couldn't justify the usefulness
+of all these plugins. They were complicating things for me because **I didn't know the downside
+of vanilla vim.** That said, get to know vim with very few plugins first. This allows you to discover
+the downsides yourself. From there, feel free to use plugins to make up for the downsides
+you have discovered. Experience first, fix later.
+
+Here are some plugins I had installed in the beginning of my adventure:
+
+*    [Javascript syntax highlighting](https://github.com/jelera/vim-javascript-syntax)
+*    [Python syntax highlighting](https://github.com/hdima/python-syntax)
+*    [Gruvbox color scheme](https://github.com/morhetz/gruvbox) (I can't resist a good theme)
+
+Learn Movement Commands Really Well
+===================================
+Nothing is more frustrating than taking twenty seconds longer to get half way down the page
+to a specific line then to a specific word while only using vim's h, j, k, l arrow keys.
+
+Because I didn't take the time to really learn the movement commands, I found myself cheating; using arrow keys,
+the mouse, and, at one point, a different editor! I took a step back, downloaded a [nifty cheat
+sheet](https://bitbucket.org/tednaleid/vim-shortcut-wallpaper/raw/tip/vim-shortcuts.png) (thanks to [Ted Naleid](http://naleid.com/blog/2010/10/04/vim-movement-shortcuts-wallpaper/a)) and forced myself only move the cursor via
+move commands. Sure it took longer at first, and I looked pretty dumb
+shouting commands out loud to help me remember faster (it works, try it!), but
+it helped in the long run. I can now resonably get around the vim, and each day
+I find myself getting faster. It feels great when you start noticing vim fading into the background environment 
+to help rather than impede.
+
+ I made this [cheat sheet](http://www.viemu.com/vi-vim-cheat-sheet.gif) my desktop background shortly after. 
+
+Don't Forget About Tmux
+=======================
+Honestly, tmux is so much easier to learn after dealing with vim. Just make sure you know the basic commands well (or
+keep a list handy) and you'll be good to go. One thing I changed right off the bat was the default tmux key (ctrl-b) to
+ctrl-a. The inspiration came from Daniel over [unwiredcouch.com](https://www.unwiredcouch.com/). In fact when you want
+ to take your tmux config to the next level I suggest you read his
+ [post](https://www.unwiredcouch.com/2013/11/15/my-tmux-setup.html) about it.
+
+And of course I couldn't resist a good tmux [theme](https://github.com/edkolev/tmuxline.vim) either.
+
+Conclusion
+==========
+I'm happy with my results so far, and I'm glad I forced myself to stick with for a month. I recommend that you try
+vim+tmux for a month before making any rash decisions. The first week will be rough, I can guarantee it. However, 
+if you keep at it (code every day!) you'll soon become a vim+tmux pro. Hopefully this article can help jumpstart
+that.

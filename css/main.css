@@ -58,7 +58,7 @@ code {
 /* =Header */
 .wrapper {
   max-width: 800px;
-  margin: 100px auto; }
+  margin: 50px auto; }
 
 .header {
   overflow: hidden; }
@@ -101,10 +101,10 @@ code {
 
 /* =Titles */
 .page-title {
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 60px;
   text-align: center;
-  border-bottom: solid 1px black;
+  border-bottom: solid 2px black;
   padding-bottom: .9375rem; }
 
 .page-title__text {

@@ -59,7 +59,7 @@ Don't Forget About Tmux
 =======================
 Honestly, tmux is so way easier to learn after dealing with vim. Just make sure you know the basic commands well (or
 keep a list handy) and you'll be good to go. One thing I changed right off the bat was the default tmux key (ctrl-b) to
-ctrl-a. The inspiration came from Daniel over [unwiredcouch.com](https://www.unwiredcouch.com/). In fact when you want
+ctrl-a. The inspiration came from Daniel over at [unwiredcouch.com](https://www.unwiredcouch.com/). In fact when you want
  to take your tmux config to the next level I suggest you read his
  [post](https://www.unwiredcouch.com/2013/11/15/my-tmux-setup.html) about it.
 

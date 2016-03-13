@@ -16,7 +16,7 @@ What's [Jekyll](https://jekyllrb.com/)?
 ==============
 
 Well, it's a static-site generator! But more importantly, it's what was used to build
-this blog. It's a generator that can create blogs very quickly and painlessly.
+this blog. Jekyll is  a generator that can create blogs very quickly and painlessly.
 It converts [Markdown](https://daringfireball.net/projects/markdown/) into HTML and renders 
 [Liquid](https://github.com/Shopify/liquid/wiki)
 nomenclature. In the end, you'll end up writing something like this:
@@ -48,7 +48,7 @@ linked to the page layout, which is linked to the default layout.
 The "title: "{blog}"" allows me to easily assign titles to all my pages. Jekyll renders them
 all as `<h1>`'s at the top of the page and CSS takes over from there.
 
-The stuff between the `<ul>` tags is actually the Liquid template engine doing its magic and
+The stuff between the `<ul>` tags is actually the Liquid template engine working its magic and
 looks like this:
 
     % for post in site.posts %
@@ -72,7 +72,7 @@ post that has been written so far. This saves me from manually having
 to insert all the links myself and updating constantly. Combine this with the YAML front matter and I can easily
 give the user the option to view posts by date, category, or description without having to create another handful of HTML pages.
 
-The `<a>` tag in the third line uses YAML front matter to create the link to the post. The site. prefix in the `<a>` tag refers to the _config.yml YAML file that contains revelant site information (like the url it's looking for).
+The `<a>` tag in the third line uses YAML front matter to create the link to the post. The site. prefix in the `<a>` tag refers to the _config.yml YAML file that contains relevant site information (like the url it's looking for).
 
 Lastly, the `<span>` tags fetch the post's YAML front matter to access the title and date. And Presto! What you see in Figure 1.1 is the rendered code.
 

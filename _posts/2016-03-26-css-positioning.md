@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Demystifying CSS Positioning
-description: Breifly explain the basics of css positioning.
+description: Briefly explain the basics of css positioning.
 comments: true
 category: programming
 ---
@@ -26,7 +26,7 @@ CSS directions:
 + bottom
 + left
 
-They're pretty self-explanatory. They move the element in the *opposite* direction by however many pixels you assign them. In other words, if I assign an element top: 10px, then that means it will be moved 10px *from* the top, not *towards* the top.
+They're pretty self-explanatory. They move the element in the *opposite* direction by however many pixels you assign them. In other words, if I assign an element `top: 10px`, then that means it will be moved 10px *from* the top, not *towards* the top.
 
 # The First CSS Position: Static
 

@@ -6,18 +6,18 @@ comments: true
 category: lifeandstuff
 ---
 
-I'm two weeks in the [four by four challenge] and I have to say it has been an
+I'm two weeks into the [four by four challenge](http://dvrico.github.io/blog/april-update/) and I have to say it has been an
 interesting experience. A lot has been learned -- both in the areas of code and
 in personal limits.
 
 # Biting off more than I can chew
 
-As of the end of the two week mark, I completed one week's worth of planned work
-in two weeks. I created a [photographer's portfolio] site, attended a [tech breakfast],
-wrote a blog post on [css lengths], and polished my resume for the incoming application
-fest. I'm still working on the [NodeJS app], which should be done in the coming week.
+As of the end of this two week mark, I only completed one week's worth of planned goals
+in two weeks. I created a small [photographer's portfolio](http://dvrico.github.io/designs/photo_portfolio/index.html) site, attended my first-ever [tech breakfast](http://www.meetup.com/TechBreakfast/),
+wrote a difficult blog post on [css lengths](http://dvrico.github.io/blog/css-units/), and polished my resume for the incoming application
+fest. I'm still working on the [NodeJS app](https://github.com/dvrico/share-the-internet), which should be done in the coming week.
 
-As you can see, I should have had twice amount of this work done. But as the saying goes, "my
+As you can see, I should have had twice amount of this work done. But as the cheesy saying goes, "my
 eyes were bigger than my stomach."
 
 # What I learned
@@ -26,14 +26,14 @@ In the beginning, I envisioned myself working on these goals twelve hours per da
 manner. It would be an epic montage of late-night code and coffee. I would end up victorious, rising out of a pile of noodle cups like a Phoenix reborn, bathed in the soft glow of pushed commits from the computer screen...
 
 It did not go that way. I found myself coding in short bursts and taking long, unscheduled breaks. My discipline wavered in a stagnant environment. My attention span was diminished by
-unproductive breaks; there was no proper way to rejuvenate my tired mental state.
+unproductive breaks; there was no proper way to rejuvenate my sluggish mental state.
 
 My code was hurting too. Despite the gung-ho mentality that I had, I found myself deliberately
 implementing bad practices because of the pressure to finish on time. I realized I didn't have
 the knowledge to get the work done on time; 80% of the time spent was on googling issues and 20% was coding. When
 I realized this, I started cutting corners and began developing bad habits. This decreased the quality of my work and the quality of my learning. This needed to stop.
 
-Thankfully, I was experimenting with Scrum during this and without it, I would not have even
+Thankfully, I was experimenting with Scrum during this time, and without it I would not have even
 completed the first week of goals.
 
 Since then I have been thinking about improvements for the next two weeks:
@@ -42,7 +42,7 @@ Since then I have been thinking about improvements for the next two weeks:
 
 * Combat mental stagnation by taking proper breaks such as 15 min nature walks to rest weary eyes and the sluggish mind.
 
-* Keep on Scrum-ing. It's working and I'm seeing good results so far.
+* Keep on Scruming. It's working and I'm seeing good results so far.
 
 # The next two weeks
 
